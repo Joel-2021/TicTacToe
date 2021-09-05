@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="board">
+      <div class="header">
+        <div id="turn">X's turn</div>
+        <div id="status"></div>
+        <button type="button" onclick="window.location.reload()" class="restart"><img src="./twotone_refresh_white_24dp.png" height="20px" width="20px"></button>
+      </div>
+
+      <div id="gameboard">
+        <div class="tile" data-index="0">X</div>
+        <div class="tile" data-index="1"></div>
+        <div class="tile" data-index="2"></div>
+        <div class="tile" data-index="3"></div>
+        <div class="tile" data-index="4"></div>
+        <div class="tile" data-index="5"></div>
+        <div class="tile" data-index="6"></div>
+        <div class="tile" data-index="7"></div>
+        <div class="tile" data-index="8"></div>
+      </div>
+    </div>
+    <script src="Game.js"></script>
+  </body>
+</html>
+
+<!-- onclick="showDetails(this) -->
